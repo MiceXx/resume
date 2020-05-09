@@ -4,16 +4,23 @@
 
 .imgicon {
   height: 100%;
-  width: 60px;
+  width: 65px;
   margin-right: 20px;
   float: left;
 }
 
-.noimgcontent {
-  margin-left: 80px;
+.linkTitle {
+  border-bottom: 1px solid #3997dc;
+  color: #32404b;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-decoration: none;
 }
 
-.linkTitle {
+.linkTitleNI {
+  margin-left: 90px;
   border-bottom: 1px solid #3997dc;
   color: #32404b;
   display: inline-block;
@@ -35,6 +42,20 @@
   margin-bottom: 10px;
 }
 
+.titleNI {
+  margin-left: 90px;
+  color: #32404b;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
 .desc {
+  font-size: 16px;
+}
+
+.descNI {
+  margin-left: 90px;
   font-size: 16px;
 }

@@ -6,13 +6,13 @@ const Link = ({ desc, link = false, title, img }) => {
   return (
     <div className={classes.wrapper}>
       {img ? <div className={classes.imgicon}>{img}</div> : null}
-      <div className={img ? classes.content : classes.noimgcontent}>
+      <div className={classes.content}>
         {link ?
-          <a className={classes.linkTitle} href={link}>
+          <a className={img ? classes.linkTitle : classes.linkTitleNI} href={link}>
             {title}
-          </a> : <span className={classes.title}>{title}</span>
+          </a> : <span className={img ? classes.title : classes.titleNI}>{title}</span>
         }
-        <p className={classes.desc}>{desc}</p>
+        <p className={img ? classes.desc : classes.descNI}>{desc}</p>
       </div>
     </div>
   );

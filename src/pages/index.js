@@ -8,7 +8,7 @@ import SEO from "../components/seo";
 
 import Img_google from "../images/google.png";
 import Img_drw from "../images/drw.png";
-import Img_roadlaunch from "../images/roadlaunch.png";
+import Img_roadlaunch from "../images/roadlaunch.jpg";
 import Img_rbc from "../images/rbc.jpg";
 import Img_td from "../images/td.png";
 
