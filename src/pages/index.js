@@ -55,6 +55,31 @@ const IndexPage = () => (
         desc="Solution Designer, May 2017 - November 2017"
       />
     </Section>
+    <Section id="skills" title="Skills">
+      <Link
+        title="Languages"
+        desc="JavaScript, Typescript, Java, C++, Go, Python"
+      />
+      <Link
+        title="Web Frameworks"
+        desc="React, Redux, Express (NodeJS), GraphQL, REST API, Websockets, HTML/CSS"
+      />
+      <Link title="Databases" desc="MongoDB, CouchDB, MySQL" />
+      <Link
+        title="Other"
+        desc="Git, Docker, Nginx"
+      />
+    </Section>
+    <Section id="education" title="Education">
+      <Link
+        title="McMaster University"
+        desc="Master of Science - Computational Science &amp; Engineering"
+      />
+      <Link
+        title="University of Waterloo"
+        desc="Bachelor of Mathematics - Combinatorics &amp; Optimization"
+      />
+    </Section>
     <Section id="projects" title="Projects">
       <Link
         title="FI Calculator"
@@ -70,21 +95,6 @@ const IndexPage = () => (
         title="Sudoku Solver"
         link="https://micexx.github.io/sudokuSolver/"
         desc="A simple interface for solving Sudoku puzzles using plain Javascript - My first Web Project!"
-      />
-    </Section>
-    <Section id="skills" title="Skills">
-      <Link
-        title="Languages"
-        desc="JavaScript, Typescript, C++, Go, Java"
-      />
-      <Link
-        title="Web Frameworks"
-        desc="React, Redux, Express (NodeJS), GraphQL, REST API, Websockets, HTML/CSS"
-      />
-      <Link title="Databases" desc="MongoDB, CouchDB, MySQL" />
-      <Link
-        title="Other"
-        desc="Git, Docker, Nginx"
       />
     </Section>
   </Layout>
