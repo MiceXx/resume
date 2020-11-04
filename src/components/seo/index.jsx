@@ -74,7 +74,13 @@ const SEO = ({ description, lang, meta, title }) => {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    ><meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
+      <meta prefix="og: http://ogp.me/ns#" property="og:title" content="Michael's Page" />
+      <meta prefix="og: http://ogp.me/ns#" property="og:description" content="Michael Xu's Webpage" />
+      <meta prefix="og: http://ogp.me/ns#" property="og:image"
+        content="https://micexx.github.io/resume/icons/icon-512x512.png?v=481c76cfb42f501a3030f217183a15d5" />
+      <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://micexx.github.io/resume/" />
+    </Helmet>
   );
 };
 

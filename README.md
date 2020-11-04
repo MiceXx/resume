@@ -19,4 +19,4 @@ npm run deploy
 
 ### Icons
 
-https://feathericons.com/
+https://feathericons.com/ 
