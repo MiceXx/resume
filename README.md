@@ -10,6 +10,8 @@ npm start
 
 ### Deployment
 
+Commit first
+
 ```
 npm run deploy
 ```
