@@ -23,7 +23,7 @@ const IndexPage = () => (
         and process automation.
       </p>
       <p>
-        I'm passionate about writing highly scalable infrastructure,
+        I'm passionate about developing highly scalable infrastructure,
         helping teams build great products and most importantly,
         making significant impacts to the community through technology.
       </p>
@@ -40,7 +40,7 @@ const IndexPage = () => (
         desc="Software Developer, November 2018 - March 2020"
       />
       <Link
-        title="Roadlaunch"
+        title="RoadLaunch"
         img={<img src={Img_roadlaunch} alt="roadlaunch_icon"></img>}
         desc="Software Developer, May 2017 - November 2018"
       />
@@ -82,19 +82,19 @@ const IndexPage = () => (
     </Section>
     <Section id="projects" title="Projects">
       <Link
-        title="FI Calculator"
-        link="https://micexx.github.io/fi-calculator/"
-        desc="A financial toolbox featuring several useful financial calculators and visualizations"
+        title="Poker UI"
+        link="https://micexx.github.io/poker-ui/"
+        desc="Simple web-based poker interface built using React"
       />
       <Link
-        title="Event manager"
-        link="https://micexx.github.io/register-to-play/"
-        desc="A tournament registration page for quick and easy event registration. Written using Angular 4 and Google Firestore as the persistence layer"
+        title="FI Calculator"
+        link="https://micexx.github.io/fi-calculator/"
+        desc="Financial toolbox featuring several useful financial calculators and visualizations"
       />
       <Link
         title="Sudoku Solver"
         link="https://micexx.github.io/sudokuSolver/"
-        desc="A simple interface for solving Sudoku puzzles using plain Javascript - My first Web Project!"
+        desc="A simple interface for solving Sudoku puzzles using plain Javascript - My first web project!"
       />
     </Section>
   </Layout>
