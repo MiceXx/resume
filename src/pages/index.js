@@ -42,12 +42,12 @@ const IndexPage = () => (
       <Link
         title="RoadLaunch"
         img={<img src={Img_roadlaunch} alt="roadlaunch_icon"></img>}
-        desc="Software Developer, May 2017 - November 2018"
+        desc="Software Developer, May 2018 - November 2018"
       />
       <Link
         title="RBC"
         img={<img src={Img_rbc} alt="rbc_icon"></img>}
-        desc="Application Developer, November 2017 - November 2018"
+        desc="Application Developer, November 2017 - May 2018"
       />
       <Link
         title="TD"
