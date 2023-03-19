@@ -23,9 +23,14 @@ const IndexPage = () => (
         and process automation.
       </p>
       <p>
-        I'm passionate about developing highly scalable infrastructure,
-        helping teams build great products and most importantly,
-        making significant impacts to the community through technology.
+        I'm passionate about developing build highly scalable and maintainable
+        infrastructure, helping teams build great products and most importantly,
+        making significant impacts to the community through technology
+      </p>
+      <p>
+        In my free time, I like to spend time with friends playing board games, bouldering, or finding new tea shops.
+        I also like to read, travel, and exploring new cities, cuisines, and cultures.
+        Check out my <a href="https://www.google.com/maps/contrib/116370847898776376364">Google Maps profile</a> where I have over 10K contributions and 250M impressions!
       </p>
     </Section>
     <Section id="experience" title="Experience">
@@ -62,12 +67,12 @@ const IndexPage = () => (
       />
       <Link
         title="Web Frameworks"
-        desc="React, Redux, Express (NodeJS), GraphQL, REST API, Websockets, HTML/CSS"
+        desc="ReactJS, NodeJS, AngularJS, GraphQL/REST/RPC/Websockets, HTML/CSS"
       />
-      <Link title="Databases" desc="MongoDB, CouchDB, MySQL" />
+      <Link title="Databases" desc="NoSQL (MongoDB, Firebase, CouchDB), SQL (MySQL, PostgreSQL, GoogleSQL)" />
       <Link
         title="Other"
-        desc="Git, Docker, Nginx"
+        desc="Google Cloud, AWS, Git, Docker, Nginx"
       />
     </Section>
     <Section id="education" title="Education">
