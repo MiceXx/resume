@@ -3,6 +3,7 @@
   "private": true,
   "description": "Michael Xu's Resume",
   "version": "0.1.0",
+  "homepage": "https://micexx.github.io/resume",
   "author": "Michael Xu <accmxx@gmail.com>",
   "dependencies": {
     "feather-icons": "^4.28.0",
