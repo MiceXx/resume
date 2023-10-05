@@ -63,7 +63,7 @@ const IndexPage = () => (
     <Section id="skills" title="Skills">
       <Link
         title="Languages"
-        desc="JavaScript, Typescript, Java, C++, Go, Python"
+        desc="Java, Typescript, JavaScript, C++, Go, Python"
       />
       <Link
         title="Web Frameworks"
