@@ -13,6 +13,11 @@ npm start
 Commit first
 
 ```
+# If installation is needed
+npm i --legacy-peer-deps
+```
+
+```
 npm run deploy
 ```
 
